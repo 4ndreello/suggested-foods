@@ -1,3 +1,15 @@
+"""
+Authors: 
+    Gabriel Andreello (202210183)
+    Ricardo Altever Lessa (202210295)
+    Henrique Scudeller (202210324)
+    Lauren Gabrielle Fogaça (202210184)
+
+Dependencies:
+    pyswip
+    prolog-8.4.3 (https://www.swi-prolog.org/download/stable/bin/swipl-8.4.3-1.x64.exe.envelope)
+"""
+
 from pyswip import Prolog
 prolog = Prolog()
 
