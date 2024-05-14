@@ -23,11 +23,13 @@ alergico(pedro, lactose).
 % Restaurantes e tipos de cozinha
 restaurante(pizzaria, italiana).
 restaurante(sushi_bar, japonesa).
+restaurante(steakhouse, norte_americana).
 
 % Pratos servidos em cada restaurante
 prato(pizzaria, pizza).
 prato(sushi_bar, camarao).
 prato(sushi_bar, sushi).
+prato(steakhouse, carne).
 
 % Regra para determinar as comidas possíveis para uma pessoa
 comidas_possiveis(Pessoa, Comida) :-
